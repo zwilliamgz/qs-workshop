@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------------
+Region: ap-northeast-1
+StackName: tCaT-qs-workshop-default-7a7e9d573e034fbc9a5c458559e8cfd5
+*****************************************************************************
+ResourceStatusReason:  
+Parameter validation failed: parameter value TKYKey.pem for parameter name
+KeyPairName does not exist
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                          ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------  -----------------------------------------------------------------------------------------------------
+2020-06-16 15:48:04.383000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-qs-workshop-default-7a7e9d573e034fbc9a5c458559e8cfd5  Parameter validation failed: parameter value TKYKey.pem for parameter name KeyPairName does not exist
+2020-06-16 15:48:00.997000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-workshop-default-7a7e9d573e034fbc9a5c458559e8cfd5  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Tuesday, 16. June 2020 03:49PM
+-----------------------------------------------------------------------------
+
