@@ -1,0 +1,167 @@
+-----------------------------------------------------------------------------
+Region: ap-northeast-1
+StackName: tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                          ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------  ---------------------------
+2020-06-16 16:05:56.535000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74
+2020-06-16 16:05:54.616000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  WorkloadStack
+2020-06-16 16:03:15.405000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  WorkloadStack                                              Resource creation Initiated
+2020-06-16 16:03:13.260000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  WorkloadStack
+2020-06-16 16:03:10.459000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  VPCStack
+2020-06-16 15:59:38.043000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack                                                   Resource creation Initiated
+2020-06-16 15:59:35.139000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2020-06-16 15:59:29.931000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Tuesday, 16. June 2020 04:06PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: ap-northeast-1
+StackName: tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74-VPCStack-7VDHZYHPL67H
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                           LogicalResourceId                                                                ResourceStatusReason
+--------------------------------  ------------------  -------------------------------------  -------------------------------------------------------------------------------  ---------------------------
+2020-06-16 16:03:04.954000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack             tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74-VPCStack-7VDHZYHPL67H
+2020-06-16 16:02:59.665000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PrivateSubnet2ARoute
+2020-06-16 16:02:44.881000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PrivateSubnet1ARoute
+2020-06-16 16:02:44.253000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet2ARoute                                                             Resource creation Initiated
+2020-06-16 16:02:43.542000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet2ARoute
+2020-06-16 16:02:39.609000+00:00  CREATE_COMPLETE     AWS::EC2::NatGateway                   NATGateway2
+2020-06-16 16:02:29.450000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet1ARoute                                                             Resource creation Initiated
+2020-06-16 16:02:28.732000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PrivateSubnet1ARoute
+2020-06-16 16:02:24.664000+00:00  CREATE_COMPLETE     AWS::EC2::NatGateway                   NATGateway1
+2020-06-16 16:00:51.446000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway1                                                                      Resource creation Initiated
+2020-06-16 16:00:51.198000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway2                                                                      Resource creation Initiated
+2020-06-16 16:00:50.793000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway1
+2020-06-16 16:00:50.636000+00:00  CREATE_IN_PROGRESS  AWS::EC2::NatGateway                   NATGateway2
+2020-06-16 16:00:46.794000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation
+2020-06-16 16:00:46.230000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation
+2020-06-16 16:00:46.104000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          NAT1EIP
+2020-06-16 16:00:45.936000+00:00  CREATE_COMPLETE     AWS::EC2::EIP                          NAT2EIP
+2020-06-16 16:00:45.900000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation
+2020-06-16 16:00:45.579000+00:00  CREATE_COMPLETE     AWS::EC2::Route                        PublicSubnetRoute
+2020-06-16 16:00:45.542000+00:00  CREATE_COMPLETE     AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation
+2020-06-16 16:00:31.384000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation                                             Resource creation Initiated
+2020-06-16 16:00:30.842000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation                                               Resource creation Initiated
+2020-06-16 16:00:30.395000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation                                             Resource creation Initiated
+2020-06-16 16:00:30.356000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet1ARouteTableAssociation
+2020-06-16 16:00:30.158000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation                                               Resource creation Initiated
+2020-06-16 16:00:30.143000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicSubnetRoute                                                                Resource creation Initiated
+2020-06-16 16:00:30.034000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT1EIP                                                                          Resource creation Initiated
+2020-06-16 16:00:29.855000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet1RouteTableAssociation
+2020-06-16 16:00:29.806000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT2EIP                                                                          Resource creation Initiated
+2020-06-16 16:00:29.533000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT1EIP
+2020-06-16 16:00:29.482000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PrivateSubnet2ARouteTableAssociation
+2020-06-16 16:00:29.426000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Route                        PublicSubnetRoute
+2020-06-16 16:00:29.405000+00:00  CREATE_IN_PROGRESS  AWS::EC2::EIP                          NAT2EIP
+2020-06-16 16:00:29.361000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SubnetRouteTableAssociation  PublicSubnet2RouteTableAssociation
+2020-06-16 16:00:26.514000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PrivateSubnet1A
+2020-06-16 16:00:26.076000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet1
+2020-06-16 16:00:25.567000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PublicSubnet2
+2020-06-16 16:00:25.546000+00:00  CREATE_COMPLETE     AWS::EC2::Subnet                       PrivateSubnet2A
+2020-06-16 16:00:25.352000+00:00  CREATE_COMPLETE     AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment
+2020-06-16 16:00:17.862000+00:00  CREATE_COMPLETE     AWS::EC2::VPCEndpoint                  S3VPCEndpoint
+2020-06-16 16:00:17.496000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCEndpoint                  S3VPCEndpoint                                                                    Resource creation Initiated
+2020-06-16 16:00:14.810000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCEndpoint                  S3VPCEndpoint
+2020-06-16 16:00:10.788000+00:00  CREATE_COMPLETE     AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation
+2020-06-16 16:00:10.760000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable
+2020-06-16 16:00:10.735000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable
+2020-06-16 16:00:10.560000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation                                                        Resource creation Initiated
+2020-06-16 16:00:10.358000+00:00  CREATE_COMPLETE     AWS::EC2::RouteTable                   PublicSubnetRouteTable
+2020-06-16 16:00:10.185000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet1A                                                                  Resource creation Initiated
+2020-06-16 16:00:10.045000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCDHCPOptionsAssociation    VPCDHCPOptionsAssociation
+2020-06-16 16:00:10.002000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment                                                             Resource creation Initiated
+2020-06-16 16:00:09.834000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet1                                                                    Resource creation Initiated
+2020-06-16 16:00:09.596000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet1A
+2020-06-16 16:00:09.588000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable                                                        Resource creation Initiated
+2020-06-16 16:00:09.522000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable                                                        Resource creation Initiated
+2020-06-16 16:00:09.444000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet1
+2020-06-16 16:00:09.357000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPCGatewayAttachment         VPCGatewayAttachment
+2020-06-16 16:00:09.281000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet1ARouteTable
+2020-06-16 16:00:09.221000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet2A                                                                  Resource creation Initiated
+2020-06-16 16:00:09.196000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet2                                                                    Resource creation Initiated
+2020-06-16 16:00:09.061000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PrivateSubnet2ARouteTable
+2020-06-16 16:00:09.031000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicSubnetRouteTable                                                           Resource creation Initiated
+2020-06-16 16:00:08.773000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PrivateSubnet2A
+2020-06-16 16:00:08.754000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Subnet                       PublicSubnet2
+2020-06-16 16:00:08.663000+00:00  CREATE_IN_PROGRESS  AWS::EC2::RouteTable                   PublicSubnetRouteTable
+2020-06-16 16:00:04.436000+00:00  CREATE_COMPLETE     AWS::EC2::VPC                          VPC
+2020-06-16 16:00:03.319000+00:00  CREATE_COMPLETE     AWS::EC2::InternetGateway              InternetGateway
+2020-06-16 16:00:03.111000+00:00  CREATE_COMPLETE     AWS::EC2::DHCPOptions                  DHCPOptions
+2020-06-16 15:59:46.588000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway                                                                  Resource creation Initiated
+2020-06-16 15:59:46.446000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          VPC                                                                              Resource creation Initiated
+2020-06-16 15:59:46.306000+00:00  CREATE_IN_PROGRESS  AWS::EC2::DHCPOptions                  DHCPOptions                                                                      Resource creation Initiated
+2020-06-16 15:59:46.250000+00:00  CREATE_IN_PROGRESS  AWS::EC2::InternetGateway              InternetGateway
+2020-06-16 15:59:45.953000+00:00  CREATE_IN_PROGRESS  AWS::EC2::DHCPOptions                  DHCPOptions
+2020-06-16 15:59:45.925000+00:00  CREATE_IN_PROGRESS  AWS::EC2::VPC                          VPC
+2020-06-16 15:59:37.712000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack             tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74-VPCStack-7VDHZYHPL67H  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Tuesday, 16. June 2020 04:06PM
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+Region: ap-northeast-1
+StackName: tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74-WorkloadStack-IAHXHBWZXHLY
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                               LogicalResourceId                                                                     ResourceStatusReason
+--------------------------------  ------------------  -----------------------------------------  ------------------------------------------------------------------------------------  ---------------------------------------------------------
+2020-06-16 16:05:48.034000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack                 tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74-WorkloadStack-IAHXHBWZXHLY
+2020-06-16 16:05:46.085000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm                     WebServerCPUAlarmHigh
+2020-06-16 16:05:45.696000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm                     WebServerCPUAlarmHigh                                                                 Resource creation Initiated
+2020-06-16 16:05:45.401000+00:00  CREATE_COMPLETE     AWS::CloudWatch::Alarm                     WebServerCPUAlarmLow
+2020-06-16 16:05:45.307000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm                     WebServerCPUAlarmHigh
+2020-06-16 16:05:45.059000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm                     WebServerCPUAlarmLow                                                                  Resource creation Initiated
+2020-06-16 16:05:44.681000+00:00  CREATE_IN_PROGRESS  AWS::CloudWatch::Alarm                     WebServerCPUAlarmLow
+2020-06-16 16:05:42.565000+00:00  CREATE_COMPLETE     AWS::AutoScaling::ScalingPolicy            WebServerScaleUpPolicy
+2020-06-16 16:05:42.493000+00:00  CREATE_COMPLETE     AWS::AutoScaling::ScalingPolicy            WebServerScaleDownPolicy
+2020-06-16 16:05:42.205000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::ScalingPolicy            WebServerScaleUpPolicy                                                                Resource creation Initiated
+2020-06-16 16:05:42.115000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::ScalingPolicy            WebServerScaleDownPolicy                                                              Resource creation Initiated
+2020-06-16 16:05:41.707000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::ScalingPolicy            WebServerScaleUpPolicy
+2020-06-16 16:05:41.696000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::ScalingPolicy            WebServerScaleDownPolicy
+2020-06-16 16:05:39.503000+00:00  CREATE_COMPLETE     AWS::AutoScaling::AutoScalingGroup         WebServerGroup
+2020-06-16 16:05:38.534000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup         WebServerGroup                                                                        Received SUCCESS signal with UniqueId i-067967a4e50c9d6b1
+2020-06-16 16:05:38.474000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup         WebServerGroup                                                                        Received SUCCESS signal with UniqueId i-05483f56f0eff92de
+2020-06-16 16:05:33.892000+00:00  CREATE_COMPLETE     AWS::ElasticLoadBalancingV2::Listener      ALBListener
+2020-06-16 16:05:33.440000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::Listener      ALBListener                                                                           Resource creation Initiated
+2020-06-16 16:05:33.154000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::Listener      ALBListener
+2020-06-16 16:05:31.201000+00:00  CREATE_COMPLETE     AWS::ElasticLoadBalancingV2::LoadBalancer  ApplicationLoadBalancer
+2020-06-16 16:03:35.409000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup         WebServerGroup                                                                        Resource creation Initiated
+2020-06-16 16:03:34.608000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::AutoScalingGroup         WebServerGroup
+2020-06-16 16:03:32.272000+00:00  CREATE_COMPLETE     AWS::SNS::Topic                            NotificationTopic
+2020-06-16 16:03:29.865000+00:00  CREATE_COMPLETE     AWS::AutoScaling::LaunchConfiguration      WebServerLaunchConfig
+2020-06-16 16:03:29.862000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::LoadBalancer  ApplicationLoadBalancer                                                               Resource creation Initiated
+2020-06-16 16:03:29.370000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::LaunchConfiguration      WebServerLaunchConfig                                                                 Resource creation Initiated
+2020-06-16 16:03:28.751000+00:00  CREATE_IN_PROGRESS  AWS::AutoScaling::LaunchConfiguration      WebServerLaunchConfig
+2020-06-16 16:03:28.372000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::LoadBalancer  ApplicationLoadBalancer
+2020-06-16 16:03:26.295000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup                    WebServerSecurityGroup
+2020-06-16 16:03:25.164000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                    WebServerSecurityGroup                                                                Resource creation Initiated
+2020-06-16 16:03:21.841000+00:00  CREATE_COMPLETE     AWS::ElasticLoadBalancingV2::TargetGroup   ALBTargetGroup
+2020-06-16 16:03:21.321000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::TargetGroup   ALBTargetGroup                                                                        Resource creation Initiated
+2020-06-16 16:03:20.839000+00:00  CREATE_IN_PROGRESS  AWS::SNS::Topic                            NotificationTopic                                                                     Resource creation Initiated
+2020-06-16 16:03:20.744000+00:00  CREATE_IN_PROGRESS  AWS::ElasticLoadBalancingV2::TargetGroup   ALBTargetGroup
+2020-06-16 16:03:20.495000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup                    WebServerSecurityGroup
+2020-06-16 16:03:20.409000+00:00  CREATE_IN_PROGRESS  AWS::SNS::Topic                            NotificationTopic
+2020-06-16 16:03:15.255000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack                 tCaT-qs-workshop-default-a2d62882cf784329966338b259b14c74-WorkloadStack-IAHXHBWZXHLY  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Tuesday, 16. June 2020 04:06PM
+-----------------------------------------------------------------------------
+
